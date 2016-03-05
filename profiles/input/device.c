@@ -1206,6 +1206,10 @@ static void input_device_enter_reconnect_mode(struct input_device *idev)
 				idev->reconnect_mode != RECONNECT_HOST)
 		return;
 
+
+
+
+
 	/* If the device is temporary we are not required to reconnect
 	 * with the device. This is likely the case of a removing device.
 	 */
